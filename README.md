@@ -40,11 +40,23 @@ Atualmente trabalho principalmente com **React, TypeScript, Node.js/NestJS, Java
 
 ---
 
-📊 GitHub Stats
+## 📊 GitHub Stats
 
-<div align="center"> <img width="49%" src="https://github-readme-stats.vercel.app/api?username=danielpmorais&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Daniel's GitHub Stats" /> <img width="37%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danielpmorais&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Daniel's Top Languages" /> </div>
+<div align="center">
 
-<br>
+  <img
+    width="49%"
+    src="./profile/stats.svg"
+    alt="Daniel's GitHub Stats"
+  />
+
+  <img
+    width="41%"
+    src="./profile/top-langs.svg"
+    alt="Daniel's Top Languages"
+  />
+
+</div>
 
 🐍 Contribuições
 
