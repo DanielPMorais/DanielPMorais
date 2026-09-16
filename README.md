@@ -42,21 +42,16 @@ Atualmente trabalho principalmente com **React, TypeScript, Node.js/NestJS, Java
 
 ## 📊 GitHub Stats
 
-<div align="center">
-
-  <img
-    width="49%"
-    src="./profile/stats.svg"
-    alt="Daniel's GitHub Stats"
-  />
-
-  <img
-    width="41%"
-    src="./profile/top-langs.svg"
-    alt="Daniel's Top Languages"
-  />
-
-</div>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="./profile/stats.svg" alt="Daniel's GitHub Stats" width="100%" />
+    </td>
+    <td align="center">
+      <img src="./profile/top-langs.svg" alt="Daniel's Top Languages" width="100%" />
+    </td>
+  </tr>
+</table>
 
 🐍 Contribuições
 
