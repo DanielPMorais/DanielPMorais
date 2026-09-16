@@ -48,4 +48,20 @@ Atualmente trabalho principalmente com **React, TypeScript, Node.js/NestJS, Java
 
 🐍 Contribuições
 
-<div align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielpmorais/danielpmorais/output/github-contribution-grid-snake-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielpmorais/danielpmorais/output/github-contribution-grid-snake.svg" /> <img width="100%" alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/danielpmorais/danielpmorais/output/github-contribution-grid-snake.svg" /> </picture> </div>
+<div align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/danielpmorais/danielpmorais/output/github-contribution-grid-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/danielpmorais/danielpmorais/output/github-contribution-grid-snake.svg"
+    />
+    <img
+      width="95%"
+      alt="GitHub contribution grid snake animation"
+      src="https://raw.githubusercontent.com/danielpmorais/danielpmorais/output/github-contribution-grid-snake.svg"
+    />
+  </picture>
+</div>
