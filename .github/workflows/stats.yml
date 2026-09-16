@@ -2,8 +2,15 @@ name: Generate GitHub Stats
 
 on:
   workflow_dispatch:
+
   schedule:
     - cron: "15 0 * * *"
+
+  push:
+    branches:
+      - master
+    paths:
+      - ".github/workflows/stats.yml"
 
 permissions:
   contents: write
