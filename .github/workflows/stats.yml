@@ -1,0 +1,41 @@
+name: Generate GitHub Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Generate profile cards
+        run: |
+          mkdir -p profile
+
+          curl -fsSL \
+            "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${{ github.repository_owner }}&theme=tokyonight" \
+            -o profile/stats.svg
+
+          curl -fsSL \
+            "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=${{ github.repository_owner }}&theme=tokyonight" \
+            -o profile/top-langs.svg
+
+      - name: Commit generated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/stats.svg profile/top-langs.svg
+
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update GitHub profile stats"
+            git push
+          fi
