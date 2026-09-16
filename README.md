@@ -40,22 +40,12 @@ Atualmente trabalho principalmente com **React, TypeScript, Node.js/NestJS, Java
 
 ---
 
-## 📊 GitHub
+📊 GitHub Stats
 
-<div align="center">
+<div align="center"> <img width="49%" src="https://github-readme-stats.vercel.app/api?username=danielpmorais&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Daniel's GitHub Stats" /> <img width="37%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danielpmorais&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Daniel's Top Languages" /> </div>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=danielpmorais&show=prs_merged,prs_merged_percentage&hide=stars&show_icons=true&theme=tokyonight&rank_icon=github" />
+<br>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danielpmorais&theme=tokyonight&layout=compact&langs_count=8" />
+🐍 Contribuições
 
-</div>
-
----
-
-## 🐍 Contribuições
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielpmorais/danielpmorais/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielpmorais/danielpmorais/output/github-contribution-grid-snake.svg">
-  <img alt="Animação das contribuições do GitHub" src="https://raw.githubusercontent.com/danielpmorais/danielpmorais/output/github-contribution-grid-snake.svg">
-</picture>
+<div align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielpmorais/danielpmorais/output/github-contribution-grid-snake-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielpmorais/danielpmorais/output/github-contribution-grid-snake.svg" /> <img width="100%" alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/danielpmorais/danielpmorais/output/github-contribution-grid-snake.svg" /> </picture> </div>
